@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Basic App</string>
+    <string name="login_page">Login</string>
+    <string name="connect_facebook_button">Login Using Facebook</string>
+    <string name="connect_google_button">Login Using Google</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">391602747697318</string>
+    <string name="title_activity_basic_profile">Basic Profile</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="institute">Institute</string>
+    <string name="instituteCity">Institute Name</string>
+    <string name="title_activity_activity_profilef">activity_profilef</string>
+    <string name="title_activity_profile">profile</string>
+</resources>

@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:id="@+id/relativeLayout"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="basic.sachet.com.basicapp.BasicProfile"
+    >
+
+    <TextView android:text="@string/title_activity_basic_profile" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/abc_text_size_title"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/basicProfileTitle" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:hint="Name"
+        android:ems="10"
+        android:id="@+id/editName"
+        android:layout_below="@+id/basicProfileTitle"
+        android:layout_marginTop="40dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:layout_centerHorizontal="true"
+        android:ems="10"
+        android:id="@+id/editAge"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/editName"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignStart="@+id/editName"
+        android:hint="Age"
+        android:inputType="number"
+        android:numeric="integer" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:id="@+id/institute"
+        android:layout_below="@+id/editAge"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignStart="@+id/editName"
+        android:hint="Institute"
+        android:layout_marginTop="20dp"
+        android:ems="10"/>
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:id="@+id/instituteCity"
+        android:layout_below="@+id/institute"
+        android:layout_alignLeft="@+id/editName"
+        android:layout_alignStart="@+id/editName"
+        android:hint="Institute City"
+        android:layout_marginTop="20dp"
+        android:ems="10"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add More"
+        android:textAlignment="center"
+        android:id="@+id/addMore"
+        android:layout_alignLeft="@+id/instituteCity"
+        android:layout_alignStart="@+id/instituteCity"
+        android:layout_below="@+id/instituteCity"
+        android:layout_marginTop="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveProfile"
+        android:layout_alignRight="@+id/instituteCity"
+        android:layout_alignEnd="@+id/instituteCity"
+        android:layout_below="@+id/instituteCity"
+        android:layout_marginTop="40dp" />
+</RelativeLayout>
+
